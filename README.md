@@ -1,7 +1,7 @@
-#BLACK JACK by KUNG FU DOLPHINS#
+BLACK JACK by KUNG FU DOLPHINS
 
-##HTML -sida med plats korten(bilder) och spelplan plus enkla instruktioner
-CSS-fil##
+HTML -sida med plats korten(bilder) och spelplan plus enkla instruktioner
+CSS-fil
 
 JS:
 1. Funktion som skapar kortleken (objekt med namn + värde, klädda är värda 10 + property(img)) 
