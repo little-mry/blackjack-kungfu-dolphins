@@ -83,184 +83,184 @@ const cardDeck = [
     {
         name: 'Jack of diamonds',
         value: 10,
-        image: './img/club-J.png'
+        image: './img/diamonds-J.png'
     },
     {
         name: 'Ten of diamonds',
         value: 10,
-        image: './img/club-10.png'
+        image: './img/diamonds-10.png'
     },
     {
         name: 'Nine of diamonds',
         value: 9,
-        image: './img/club-9.png'
+        image: './img/diamonds-9.png'
     },
     {
         name: 'Eight of diamonds',
         value: 8,
-        image: './img/club-8.png'
+        image: './img/diamonds-8.png'
     },
     {
         name: 'Seven of diamonds',
         value: 7,
-        image: './img/club-7.png'
+        image: './img/diamonds-7.png'
     },
     {
         name: 'Six of diamonds',
         value: 6,
-        image: './img/club-6.png'
+        image: './img/diamonds-6.png'
     },
     {
         name: 'Five of diamonds',
         value: 5,
-        image: './img/club-5.png'
+        image: './img/diamonds-5.png'
     },
     {
         name: 'Four of diamonds',
         value: 4,
-        image: './img/club-4.png'
+        image: './img/diamonds-4.png'
     },
     {
         name: 'Three of diamonds',
         value: 3,
-        image: './img/club-3.png'
+        image: './img/diamonds-3.png'
     },
     {
         name: 'Two of diamonds',
         value: 2,
-        image: './img/club-2.png'
+        image: './img/diamonds-2.png'
     },
 
     {
         name: 'Ace of spades',
         value: undefined,
-        image: './img/club-A.png'
+        image: './img/spades-A.png'
     },
     {
         name: 'King of spades',
         value: 10,
-        image: './img/club-K.png'
+        image: './img/spades-K.png'
     },
     {
         name: 'Queen of spades',
         value: 10,
-        image: './img/club-Q.png'
+        image: './img/spades-Q.png'
     },
     {
         name: 'Jack of spades',
         value: 10,
-        image: './img/club-J.png'
+        image: './img/spades-J.png'
     },
     {
         name: 'Ten of spades',
         value: 10,
-        image: './img/club-10.png'
+        image: './img/spades-10.png'
     },
     {
         name: 'Nine of spades',
         value: 9,
-        image: './img/club-9.png'
+        image: './img/spades-9.png'
     },
     {
         name: 'Eight of spades',
         value: 8,
-        image: './img/club-8.png'
+        image: './img/spades-8.png'
     },
     {
         name: 'Seven of spades',
         value: 7,
-        image: './img/club-7.png'
+        image: './img/spades-7.png'
     },
     {
         name: 'Six of spades',
         value: 6,
-        image: './img/club-6.png'
+        image: './img/spades-6.png'
     },
     {
         name: 'Five of spades',
         value: 5,
-        image: './img/club-5.png'
+        image: './img/spades-5.png'
     },
     {
         name: 'Four of spades',
         value: 4,
-        image: './img/club-4.png'
+        image: './img/spades-4.png'
     },
     {
         name: 'Three of spades',
         value: 3,
-        image: './img/club-3.png'
+        image: './img/spades-3.png'
     },
     {
         name: 'Two of spades',
         value: 2,
-        image: './img/club-2.png'
+        image: './img/spades-2.png'
     },
 
     {
         name: 'Ace of hearts',
         value: undefined,
-        image: './img/club-A.png'
+        image: './img/hearts-A.png'
     },
     {
         name: 'King of hearts',
         value: 10,
-        image: './img/club-K.png'
+        image: './img/hearts-K.png'
     },
     {
         name: 'Queen of hearts',
         value: 10,
-        image: './img/club-Q.png'
+        image: './img/hearts-Q.png'
     },
     {
         name: 'Jack of hearts',
         value: 10,
-        image: './img/club-J.png'
+        image: './img/hearts-J.png'
     },
     {
         name: 'Ten of hearts',
         value: 10,
-        image: './img/club-10.png'
+        image: './img/hearts-10.png'
     },
     {
         name: 'Nine of hearts',
         value: 9,
-        image: './img/club-9.png'
+        image: './img/hearts-9.png'
     },
     {
         name: 'Eight of hearts',
         value: 8,
-        image: './img/club-8.png'
+        image: './img/hearts-8.png'
     },
     {
         name: 'Seven of hearts',
         value: 7,
-        image: './img/club-7.png'
+        image: './img/hearts-7.png'
     },
     {
         name: 'Six of hearts',
         value: 6,
-        image: './img/club-6.png'
+        image: './img/hearts-6.png'
     },
     {
         name: 'Five of hearts',
         value: 5,
-        image: './img/club-5.png'
+        image: './img/hearts-5.png'
     },
     {
         name: 'Four of hearts',
         value: 4,
-        image: './img/club-4.png'
+        image: './img/hearts-4.png'
     },
     {
         name: 'Three of hearts',
         value: 3,
-        image: './img/club-3.png'
+        image: './img/hearts-3.png'
     },
     {
         name: 'Two of hearts',
         value: 2,
-        image: './img/club-2.png'
+        image: './img/hearts-2.png'
     },
 
 ]
