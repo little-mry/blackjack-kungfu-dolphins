@@ -16,9 +16,9 @@ body {
 
 .arc-divider {
     border: 2px solid black;
-    height: 8rem;
+    height: 7rem;
     width: 40%;
-    border: 2px solid black;      /* Kantens färg och tjocklek */
+    border: 2px solid goldenrod;      /* Kantens färg och tjocklek */
     border-radius: 0 0 999rem 999rem;  /* Skapar halvcirkel */
     position: relative;
 
@@ -27,14 +27,14 @@ body {
   .arc-divider::before {
     content: '';
     position: absolute;
-    height: 6rem;              /* Inre urholkningens höjd */
-    width: 35%;               /* Inre urholkningens bredd */
+    height: 5rem;              /* Inre urholkningens höjd */
+    width: 80%;               /* Inre urholkningens bredd */
     background-color: rgb(43, 118, 85);  
     top: -2px;                  
     left: 50%;                  
     transform: translateX(-50%); 
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-bottom: 2px solid goldenrod;
+    border-left: 2px solid goldenrod;
+    border-right: 2px solid goldenrod;
     border-radius: 0 0 999rem 999rem;  /* Rundad för att matcha ytterbågens form */
   }
