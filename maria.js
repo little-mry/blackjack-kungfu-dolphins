@@ -265,36 +265,23 @@ const cardDeck = [
 
 ]
 
-function evaluateCards(card1, card2) {
-    if(card1[value] === 11) {
+function decideAceValue(card) {
+    if(card[value] === 11) {
         const aceValue = prompt('Vill du att värdet på ditt ess ska vara [1] eller [11]?')
         switch (aceValue) {
             case '1':
-                card1[value] = aceValue  
+                card[value] = aceValue  
                 break;
             case '11':
-                card1[value] = aceValue  
+                card[value] = aceValue  
                 break;
             default:
                 prompt('Vill du att värdet på ditt ess ska vara [1] eller [11]?')
                 break;
         }
-    }
-    if(card2[value] === 11) {
-        const aceValue = prompt('Vill du att värdet på ditt ess ska vara [1] eller [11]?')
-        switch (aceValue) {
-            case '1':
-                card1[value] = aceValue  
-                break;
-            case '11':
-                card1[value] = aceValue  
-                break;
-            default:
-                prompt('Vill du att värdet på ditt ess ska vara [1] eller [11]?')
-                break;
-        }
-    }
-               
+    }    
+    
+    return aceValue
 }
 
 
