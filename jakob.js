@@ -269,12 +269,12 @@ const cardDeck = [
 // kanske ändra till valör ist? : hearts ex...
 
 function randomCard() {
-  let randomNumber = Math.floor(Math.random() * 52);
+  let randomNumber = Math.floor(Math.random() * 52); //byt namn till randomCard?
   //   console.log(randomNumber);
 
   const playerHtmlEl = document.querySelector(".card-container-player");
   const cardHtml =
-    (playerHtmlEl.innerHTML += `<div> ${cardDeck[randomNumber].image}</div>`);
+    (playerHtmlEl.innerHTML += `<div> ${cardDeck[randomNumber].image}</div>`); //vi ska undvika innerHTML pga säkerhetsrisk?
   // måste få att den slumpar 2 olika..
   return cardHtml;
 }
@@ -282,3 +282,5 @@ function randomCard() {
 
 const btnEl = document.querySelector(".play-btn");
 btnEl.addEventListener("click", randomCard);
+
+//vi måste se till att den inte drar samma kort flera gånger?

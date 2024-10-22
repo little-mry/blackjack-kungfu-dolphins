@@ -71,194 +71,194 @@ const cardDeck = [
         image: './img/diamonds-A.png'
     },
     {
-        suit: 'King of diamonds',
+        suit: 'diamonds',
         value: 10,
         image: './img/diamonds-K.png'
     },
     {
-        suit: 'Queen of diamonds',
+        suit: 'diamonds',
         value: 10,
         image: './img/diamonds-Q.png'
     },
     {
-        suit: 'Jack of diamonds',
+        suit: 'diamonds',
         value: 10,
         image: './img/diamonds-J.png'
     },
     {
-        suit: 'Ten of diamonds',
+        suit: 'diamonds',
         value: 10,
         image: './img/diamonds-10.png'
     },
     {
-        suit: 'Nine of diamonds',
+        suit: 'diamonds',
         value: 9,
         image: './img/diamonds-9.png'
     },
     {
-        suit: 'Eight of diamonds',
+        suit: 'diamonds',
         value: 8,
         image: './img/diamonds-8.png'
     },
     {
-        suit: 'Seven of diamonds',
+        suit: 'diamonds',
         value: 7,
         image: './img/diamonds-7.png'
     },
     {
-        suit: 'Six of diamonds',
+        suit: 'diamonds',
         value: 6,
         image: './img/diamonds-6.png'
     },
     {
-        suit: 'Five of diamonds',
+        suit: 'diamonds',
         value: 5,
         image: './img/diamonds-5.png'
     },
     {
-        suit: 'Four of diamonds',
+        suit: 'diamonds',
         value: 4,
         image: './img/diamonds-4.png'
     },
     {
-        suit: 'Three of diamonds',
+        suit: 'diamonds',
         value: 3,
         image: './img/diamonds-3.png'
     },
     {
-        suit: 'Two of diamonds',
+        suit: 'diamonds',
         value: 2,
         image: './img/diamonds-2.png'
     },
 
     {
-        suit: 'Ace of spades',
+        suit: 'spades',
         value: 11,
         image: './img/spades-A.png'
     },
     {
-        suit: 'King of spades',
+        suit: 'spades',
         value: 10,
         image: './img/spades-K.png'
     },
     {
-        suit: 'Queen of spades',
+        suit: 'spades',
         value: 10,
         image: './img/spades-Q.png'
     },
     {
-        suit: 'Jack of spades',
+        suit: 'spades',
         value: 10,
         image: './img/spades-J.png'
     },
     {
-        suit: 'Ten of spades',
+        suit: 'spades',
         value: 10,
         image: './img/spades-10.png'
     },
     {
-        suit: 'Nine of spades',
+        suit: 'spades',
         value: 9,
         image: './img/spades-9.png'
     },
     {
-        suit: 'Eight of spades',
+        suit: 'spades',
         value: 8,
         image: './img/spades-8.png'
     },
     {
-        suit: 'Seven of spades',
+        suit: 'spades',
         value: 7,
         image: './img/spades-7.png'
     },
     {
-        suit: 'Six of spades',
+        suit: 'spades',
         value: 6,
         image: './img/spades-6.png'
     },
     {
-        suit: 'Five of spades',
+        suit: 'spades',
         value: 5,
         image: './img/spades-5.png'
     },
     {
-        suit: 'Four of spades',
+        suit: 'spades',
         value: 4,
         image: './img/spades-4.png'
     },
     {
-        suit: 'Three of spades',
+        suit: 'spades',
         value: 3,
         image: './img/spades-3.png'
     },
     {
-        suit: 'Two of spades',
+        suit: 'spades',
         value: 2,
         image: './img/spades-2.png'
     },
 
     {
-        suit: 'Ace of hearts',
+        suit: 'hearts',
         value: 11,
         image: './img/hearts-A.png'
     },
     {
-        suit: 'King of hearts',
+        suit: 'hearts',
         value: 10,
         image: './img/hearts-K.png'
     },
     {
-        suit: 'Queen of hearts',
+        suit: 'hearts',
         value: 10,
         image: './img/hearts-Q.png'
     },
     {
-        suit: 'Jack of hearts',
+        suit: 'hearts',
         value: 10,
         image: './img/hearts-J.png'
     },
     {
-        suit: 'Ten of hearts',
+        suit: 'hearts',
         value: 10,
         image: './img/hearts-10.png'
     },
     {
-        suit: 'Nine of hearts',
+        suit: 'hearts',
         value: 9,
         image: './img/hearts-9.png'
     },
     {
-        suit: 'Eight of hearts',
+        suit: 'hearts',
         value: 8,
         image: './img/hearts-8.png'
     },
     {
-        suit: 'Seven of hearts',
+        suit: 'hearts',
         value: 7,
         image: './img/hearts-7.png'
     },
     {
-        suit: 'Six of hearts',
+        suit: 'hearts',
         value: 6,
         image: './img/hearts-6.png'
     },
     {
-        suit: 'Five of hearts',
+        suit: 'hearts',
         value: 5,
         image: './img/hearts-5.png'
     },
     {
-        suit: 'Four of hearts',
+        suit: 'hearts',
         value: 4,
         image: './img/hearts-4.png'
     },
     {
-        suit: 'Three of hearts',
+        suit: 'hearts',
         value: 3,
         image: './img/hearts-3.png'
     },
     {
-        suit: 'Two of hearts',
+        suit: 'hearts',
         value: 2,
         image: './img/hearts-2.png'
     },
