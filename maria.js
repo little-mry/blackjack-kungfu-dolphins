@@ -1,268 +1,300 @@
 const cardDeck = [
     {
-        name: 'Ace of clubs',
-        value: undefined,
+        suit: 'clubs',
+        value: 11,
         image: './img/clubs-A.png'
     },
     {
-        name: 'King of clubs',
+        suit: 'clubs',
         value: 10,
         image: './img/clubs-K.png'
     },
     {
-        name: 'Queen of clubs',
+        suit: 'clubs',
         value: 10,
         image: './img/clubs-Q.png'
     },
     {
-        name: 'Jack of clubs',
+        suit: 'clubs',
         value: 10,
         image: './img/clubs-J.png'
     },
     {
-        name: 'Ten of clubs',
+        suit: 'clubs',
         value: 10,
         image: './img/clubs-10.png'
     },
     {
-        name: 'Nine of clubs',
+        suit: 'clubs',
         value: 9,
         image: './img/clubs-9.png'
     },
     {
-        name: 'Eight of clubs',
+        suit: 'clubs',
         value: 8,
         image: './img/clubs-8.png'
     },
     {
-        name: 'Seven of clubs',
+        suit: 'clubs',
         value: 7,
         image: './img/clubs-7.png'
     },
     {
-        name: 'Six of clubs',
+        suit: 'clubs',
         value: 6,
         image: './img/clubs-6.png'
     },
     {
-        name: 'Five of clubs',
+        suit: 'clubs',
         value: 5,
         image: './img/clubs-5.png'
     },
     {
-        name: 'Four of clubs',
+        suit: 'clubs',
         value: 4,
         image: './img/clubs-4.png'
     },
     {
-        name: 'Three of clubs',
+        suit: 'clubs',
         value: 3,
         image: './img/clubs-3.png'
     },
     {
-        name: 'Two of clubs',
+        suit: 'clubs',
         value: 2,
         image: './img/clubs-2.png'
     },
 
     {
-        name: 'Ace of diamonds',
-        value: undefined,
+        suit: 'diamonds',
+        value: 11,
         image: './img/diamonds-A.png'
     },
     {
-        name: 'King of diamonds',
+        suit: 'King of diamonds',
         value: 10,
         image: './img/diamonds-K.png'
     },
     {
-        name: 'Queen of diamonds',
+        suit: 'Queen of diamonds',
         value: 10,
         image: './img/diamonds-Q.png'
     },
     {
-        name: 'Jack of diamonds',
+        suit: 'Jack of diamonds',
         value: 10,
         image: './img/diamonds-J.png'
     },
     {
-        name: 'Ten of diamonds',
+        suit: 'Ten of diamonds',
         value: 10,
         image: './img/diamonds-10.png'
     },
     {
-        name: 'Nine of diamonds',
+        suit: 'Nine of diamonds',
         value: 9,
         image: './img/diamonds-9.png'
     },
     {
-        name: 'Eight of diamonds',
+        suit: 'Eight of diamonds',
         value: 8,
         image: './img/diamonds-8.png'
     },
     {
-        name: 'Seven of diamonds',
+        suit: 'Seven of diamonds',
         value: 7,
         image: './img/diamonds-7.png'
     },
     {
-        name: 'Six of diamonds',
+        suit: 'Six of diamonds',
         value: 6,
         image: './img/diamonds-6.png'
     },
     {
-        name: 'Five of diamonds',
+        suit: 'Five of diamonds',
         value: 5,
         image: './img/diamonds-5.png'
     },
     {
-        name: 'Four of diamonds',
+        suit: 'Four of diamonds',
         value: 4,
         image: './img/diamonds-4.png'
     },
     {
-        name: 'Three of diamonds',
+        suit: 'Three of diamonds',
         value: 3,
         image: './img/diamonds-3.png'
     },
     {
-        name: 'Two of diamonds',
+        suit: 'Two of diamonds',
         value: 2,
         image: './img/diamonds-2.png'
     },
 
     {
-        name: 'Ace of spades',
-        value: undefined,
+        suit: 'Ace of spades',
+        value: 11,
         image: './img/spades-A.png'
     },
     {
-        name: 'King of spades',
+        suit: 'King of spades',
         value: 10,
         image: './img/spades-K.png'
     },
     {
-        name: 'Queen of spades',
+        suit: 'Queen of spades',
         value: 10,
         image: './img/spades-Q.png'
     },
     {
-        name: 'Jack of spades',
+        suit: 'Jack of spades',
         value: 10,
         image: './img/spades-J.png'
     },
     {
-        name: 'Ten of spades',
+        suit: 'Ten of spades',
         value: 10,
         image: './img/spades-10.png'
     },
     {
-        name: 'Nine of spades',
+        suit: 'Nine of spades',
         value: 9,
         image: './img/spades-9.png'
     },
     {
-        name: 'Eight of spades',
+        suit: 'Eight of spades',
         value: 8,
         image: './img/spades-8.png'
     },
     {
-        name: 'Seven of spades',
+        suit: 'Seven of spades',
         value: 7,
         image: './img/spades-7.png'
     },
     {
-        name: 'Six of spades',
+        suit: 'Six of spades',
         value: 6,
         image: './img/spades-6.png'
     },
     {
-        name: 'Five of spades',
+        suit: 'Five of spades',
         value: 5,
         image: './img/spades-5.png'
     },
     {
-        name: 'Four of spades',
+        suit: 'Four of spades',
         value: 4,
         image: './img/spades-4.png'
     },
     {
-        name: 'Three of spades',
+        suit: 'Three of spades',
         value: 3,
         image: './img/spades-3.png'
     },
     {
-        name: 'Two of spades',
+        suit: 'Two of spades',
         value: 2,
         image: './img/spades-2.png'
     },
 
     {
-        name: 'Ace of hearts',
-        value: undefined,
+        suit: 'Ace of hearts',
+        value: 11,
         image: './img/hearts-A.png'
     },
     {
-        name: 'King of hearts',
+        suit: 'King of hearts',
         value: 10,
         image: './img/hearts-K.png'
     },
     {
-        name: 'Queen of hearts',
+        suit: 'Queen of hearts',
         value: 10,
         image: './img/hearts-Q.png'
     },
     {
-        name: 'Jack of hearts',
+        suit: 'Jack of hearts',
         value: 10,
         image: './img/hearts-J.png'
     },
     {
-        name: 'Ten of hearts',
+        suit: 'Ten of hearts',
         value: 10,
         image: './img/hearts-10.png'
     },
     {
-        name: 'Nine of hearts',
+        suit: 'Nine of hearts',
         value: 9,
         image: './img/hearts-9.png'
     },
     {
-        name: 'Eight of hearts',
+        suit: 'Eight of hearts',
         value: 8,
         image: './img/hearts-8.png'
     },
     {
-        name: 'Seven of hearts',
+        suit: 'Seven of hearts',
         value: 7,
         image: './img/hearts-7.png'
     },
     {
-        name: 'Six of hearts',
+        suit: 'Six of hearts',
         value: 6,
         image: './img/hearts-6.png'
     },
     {
-        name: 'Five of hearts',
+        suit: 'Five of hearts',
         value: 5,
         image: './img/hearts-5.png'
     },
     {
-        name: 'Four of hearts',
+        suit: 'Four of hearts',
         value: 4,
         image: './img/hearts-4.png'
     },
     {
-        name: 'Three of hearts',
+        suit: 'Three of hearts',
         value: 3,
         image: './img/hearts-3.png'
     },
     {
-        name: 'Two of hearts',
+        suit: 'Two of hearts',
         value: 2,
         image: './img/hearts-2.png'
     },
 
 ]
 
-console.log(cardname[0])
+function evaluateCards(card1, card2) {
+    if(card1[value] === 11) {
+        const aceValue = prompt('Vill du att värdet på ditt ess ska vara [1] eller [11]?')
+        switch (aceValue) {
+            case '1':
+                card1[value] = aceValue  
+                break;
+            case '11':
+                card1[value] = aceValue  
+                break;
+            default:
+                prompt('Vill du att värdet på ditt ess ska vara [1] eller [11]?')
+                break;
+        }
+    }
+    if(card2[value] === 11) {
+        const aceValue = prompt('Vill du att värdet på ditt ess ska vara [1] eller [11]?')
+        switch (aceValue) {
+            case '1':
+                card1[value] = aceValue  
+                break;
+            case '11':
+                card1[value] = aceValue  
+                break;
+            default:
+                prompt('Vill du att värdet på ditt ess ska vara [1] eller [11]?')
+                break;
+        }
+    }
+               
+}
+
+
