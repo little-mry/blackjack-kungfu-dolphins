@@ -40,3 +40,7 @@ body {
 .play-btn {
   margin-top: 15px;
 }
+.card-container-player img {
+  width: 150px;
+  height: 200px;
+}

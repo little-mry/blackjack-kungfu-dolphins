@@ -264,10 +264,21 @@ const cardDeck = [
   },
 ];
 
+// ändra name = hearts o ha value till de va de är..så kan man sätta template strings
+// när man sätter in bilderna i cointainern..
+// kanske ändra till valör ist? : hearts ex...
+
 function randomCard() {
   let randomNumber = Math.floor(Math.random() * 52);
-  return cardDeck[randomNumber].name;
-}
-console.log(randomCard());
+  //   console.log(randomNumber);
 
-function getCardHtml() {}
+  const playerHtmlEl = document.querySelector(".card-container-player");
+  const cardHtml =
+    (playerHtmlEl.innerHTML += `<div> ${cardDeck[randomNumber].image}</div>`);
+  // måste få att den slumpar 2 olika..
+  return cardHtml;
+}
+// randomCard();
+
+const btnEl = document.querySelector(".play-btn");
+btnEl.addEventListener("click", randomCard);
