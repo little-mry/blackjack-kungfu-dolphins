@@ -5,10 +5,10 @@ HTML -sida med plats korten(bilder) och spelplan plus enkla instruktioner
 CSS-fil
 
 JS:
-1. Funktion som skapar kortleken (objekt med namn + värde, klädda är värda 10 + property(img)) - Maria (måndag)
-2. Funktion som blandar kortleken
-3. Funktion för att dra ett öppen och ett dolt kort (dealern)
-4. Funktion som delar 1: två kort till spelaren (start)
+KLAR 1. Funktion som skapar kortleken (objekt med namn + värde, klädda är värda 10 + property(img))
+2. Funktion för att starta spelet
+3. Funktion för att dra ett kort till dealern (+ 'dolt kort', bild) JAKOB
+4. Funktion som delar 1: två kort till spelaren (start) JAKOB
 
 5. Funktion där man väljer värde på sitt ess
 6. Funktion som kontrollerar ’blackjack’ (ess eller 10-poäng)
