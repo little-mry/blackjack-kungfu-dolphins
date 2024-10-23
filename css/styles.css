@@ -44,3 +44,7 @@ body {
   width: 150px;
   height: 200px;
 }
+
+.hidden {
+  display: none;
+}
