@@ -267,23 +267,6 @@ const cardDeck = [
 let totalScorePlayer = 0;
 let totalScoreDealer = 0;
 
-// startar spelet
-
-function backCard() {
-  const playerHtmlEl = document.querySelector(".card-container-dealer");
-  playerHtmlEl.innerHTML += `
-         <img src="./img/card-back.png" alt="">`;
-}
-
-const startBtn = document.querySelector(".start-btn");
-startBtn.addEventListener("click", start);
-
-function start() {
-  player();
-  computer();
-  backCard();
-}
-
 // Funktion för att uppdatera poäng för spelare och dealer
 function scoreUpdate(card, isPlayer) {
   if (card.value == 11) {
