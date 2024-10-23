@@ -1,4 +1,4 @@
-const cardDeck = [
+/* const cardDeck = [
     {
         suit: 'clubs',
         value: 11,
@@ -291,3 +291,4 @@ function displayScores(newValueDealer, newValuePlayer) {
 }
 
 
+ */
