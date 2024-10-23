@@ -1,3 +1,4 @@
+
 const cardDeck = [
     {
         suit: 'clubs',
@@ -287,7 +288,7 @@ function displayScores(newValueDealer, newValuePlayer) {
     const totalvalueDealer =+ newValueDealer
     const totalvaluePlayer =+ newValuePlayer
 
-    
+
 }
 
 
