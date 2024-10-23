@@ -1,22 +1,24 @@
+// ändrade value i K Q och J till "K" "J" "Q"   så de blir rätt
+
 const cardDec1 = [
   {
     suit: "clubs",
-    value: 11,
+    value: "A",
     image: "./img/clubs-A.png",
   },
   {
     suit: "clubs",
-    value: 10,
+    value: "K",
     image: "./img/clubs-K.png",
   },
   {
     suit: "clubs",
-    value: 10,
+    value: "Q",
     image: "./img/clubs-Q.png",
   },
   {
     suit: "clubs",
-    value: 10,
+    value: "J",
     image: "./img/clubs-J.png",
   },
   {
@@ -67,22 +69,22 @@ const cardDec1 = [
 
   {
     suit: "diamonds",
-    value: 11,
+    value: "A",
     image: "./img/diamonds-A.png",
   },
   {
     suit: "diamonds",
-    value: 10,
+    value: "K",
     image: "./img/diamonds-K.png",
   },
   {
     suit: "diamonds",
-    value: 10,
+    value: "Q",
     image: "./img/diamonds-Q.png",
   },
   {
     suit: "diamonds",
-    value: 10,
+    value: "J",
     image: "./img/diamonds-J.png",
   },
   {
@@ -133,22 +135,22 @@ const cardDec1 = [
 
   {
     suit: "spades",
-    value: 11,
+    value: "A",
     image: "./img/spades-A.png",
   },
   {
     suit: "spades",
-    value: 10,
+    value: "K",
     image: "./img/spades-K.png",
   },
   {
     suit: "spades",
-    value: 10,
+    value: "Q",
     image: "./img/spades-Q.png",
   },
   {
     suit: "spades",
-    value: 10,
+    value: "J",
     image: "./img/spades-J.png",
   },
   {
@@ -199,22 +201,22 @@ const cardDec1 = [
 
   {
     suit: "hearts",
-    value: 11,
+    value: "A",
     image: "./img/hearts-A.png",
   },
   {
     suit: "hearts",
-    value: 10,
+    value: "K",
     image: "./img/hearts-K.png",
   },
   {
     suit: "hearts",
-    value: 10,
+    value: "Q",
     image: "./img/hearts-Q.png",
   },
   {
     suit: "hearts",
-    value: 10,
+    value: "J",
     image: "./img/hearts-J.png",
   },
   {
@@ -264,20 +266,56 @@ const cardDec1 = [
   },
 ];
 
-function GetRandomCard() {
-  let randomNumber = Math.floor(Math.random() * 52); //byt namn till randomCard?
-  //   console.log(randomNumber);
-
-  const playerHtmlEl = document.querySelector(".card-container-player");
-  const cardHtml = (playerHtmlEl.innerHTML += `
-        <img src="/img/${cardDeck[randomNumber].suit}-${cardDeck[randomNumber].value}.png"></img>
-        `); //vi ska undvika innerHTML pga säkerhetsrisk?
-  // måste få att den slumpar 2 olika..
-  return cardHtml;
+function player() {
+  GetRandomCardPlayer();
+  GetRandomCardPlayer();
 }
-// randomCard();
+function computer() {
+  GetRandomCardDealer();
+  GetRandomCardDealer();
+}
+player();
+computer();
 
-const btnEl = document.querySelector(".play-btn");
-btnEl.addEventListener("click", GetRandomCard);
+// måste göra if statement för o se om K J Q at vrdet är 10
 
+function GetRandomCardPlayer() {
+  let randomNumber = Math.floor(Math.random() * 52); //byt namn till randomCard?
+  console.log(randomNumber);
+
+  const playerHtmlEl = (document.querySelector(
+    ".card-container-player"
+  ).innerHTML += `
+            <img src="/img/${cardDec1[randomNumber].suit}-${cardDec1[randomNumber].value}.png"></img>
+                `);
+  return playerHtmlEl;
+  //vi ska undvika innerHTML pga säkerhetsrisk?
+}
+
+function GetRandomCardDealer() {
+  let randomNumber = Math.floor(Math.random() * 52); //byt namn till randomCard?
+  const playerHtmlEl = (document.querySelector(
+    ".card-container-dealer"
+  ).innerHTML += `
+            <img src="/img/${cardDec1[randomNumber].suit}-${cardDec1[randomNumber].value}.png"></img>
+                `);
+  return playerHtmlEl;
+  //vi ska undvika innerHTML pga säkerhetsrisk?
+}
+
+function extracard() {
+  //kod här för extrakort för deealern och oss
+  let randomNumber = Math.floor(Math.random() * 52); //byt namn till randomCard?
+
+  const playerHtmlEl = (document.querySelector(
+    ".card-container-player"
+  ).innerHTML += `
+            <img src="/img/${cardDec1[randomNumber].suit}-${cardDec1[randomNumber].value}.png"></img>
+                `);
+  return playerHtmlEl;
+}
+
+const nextCardBtn = document
+  .querySelector(".play-btn")
+  .addEventListener("click", extracard);
 //vi måste se till att den inte drar samma kort flera gånger?
