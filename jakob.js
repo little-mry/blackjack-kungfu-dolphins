@@ -319,3 +319,12 @@ const nextCardBtn = document
   .querySelector(".play-btn")
   .addEventListener("click", extracard);
 //vi måste se till att den inte drar samma kort flera gånger?
+
+// const person = { fname: "John", lname: "Doe", age: 25 };
+
+// let txt = "";
+// for (let x in person) {
+//   //   console.log(x);
+//   console.log(person[x]);
+//   //   txt += person[x] + " ";
+// }
