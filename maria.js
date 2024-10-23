@@ -1,3 +1,4 @@
+
 const cardDeck = [
     {
         suit: 'clubs',
@@ -280,8 +281,15 @@ function decideAceValue(card) {
                 break;
         }
     }    
-    
     return aceValue
 }
 
+function displayScores(newValueDealer, newValuePlayer) {
+    const totalvalueDealer =+ newValueDealer
+    const totalvaluePlayer =+ newValuePlayer
 
+
+}
+
+
+ */

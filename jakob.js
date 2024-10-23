@@ -1,24 +1,22 @@
-// ändrade value i K Q och J till "K" "J" "Q"   så de blir rätt
-
-const cardDec1 = [
+/* const cardDec1 = [
   {
     suit: "clubs",
-    value: "A",
+    value: 11,
     image: "./img/clubs-A.png",
   },
   {
     suit: "clubs",
-    value: "K",
+    value: 10,
     image: "./img/clubs-K.png",
   },
   {
     suit: "clubs",
-    value: "Q",
+    value: 10,
     image: "./img/clubs-Q.png",
   },
   {
     suit: "clubs",
-    value: "J",
+    value: 10,
     image: "./img/clubs-J.png",
   },
   {
@@ -69,22 +67,22 @@ const cardDec1 = [
 
   {
     suit: "diamonds",
-    value: "A",
+    value: 11,
     image: "./img/diamonds-A.png",
   },
   {
     suit: "diamonds",
-    value: "K",
+    value: 10,
     image: "./img/diamonds-K.png",
   },
   {
     suit: "diamonds",
-    value: "Q",
+    value: 10,
     image: "./img/diamonds-Q.png",
   },
   {
     suit: "diamonds",
-    value: "J",
+    value: 10,
     image: "./img/diamonds-J.png",
   },
   {
@@ -135,22 +133,22 @@ const cardDec1 = [
 
   {
     suit: "spades",
-    value: "A",
+    value: 11,
     image: "./img/spades-A.png",
   },
   {
     suit: "spades",
-    value: "K",
+    value: 10,
     image: "./img/spades-K.png",
   },
   {
     suit: "spades",
-    value: "Q",
+    value: 10,
     image: "./img/spades-Q.png",
   },
   {
     suit: "spades",
-    value: "J",
+    value: 10,
     image: "./img/spades-J.png",
   },
   {
@@ -201,22 +199,22 @@ const cardDec1 = [
 
   {
     suit: "hearts",
-    value: "A",
+    value: 11,
     image: "./img/hearts-A.png",
   },
   {
     suit: "hearts",
-    value: "K",
+    value: 10,
     image: "./img/hearts-K.png",
   },
   {
     suit: "hearts",
-    value: "Q",
+    value: 10,
     image: "./img/hearts-Q.png",
   },
   {
     suit: "hearts",
-    value: "J",
+    value: 10,
     image: "./img/hearts-J.png",
   },
   {
@@ -319,12 +317,3 @@ const nextCardBtn = document
   .querySelector(".play-btn")
   .addEventListener("click", extracard);
 //vi måste se till att den inte drar samma kort flera gånger?
-
-// const person = { fname: "John", lname: "Doe", age: 25 };
-
-// let txt = "";
-// for (let x in person) {
-//   //   console.log(x);
-//   console.log(person[x]);
-//   //   txt += person[x] + " ";
-// }
