@@ -264,21 +264,56 @@ const cardDec1 = [
   },
 ];
 
-/* function GetRandomCard() {
-  let randomNumber = Math.floor(Math.random() * 52); //byt namn till randomCard?
-  //   console.log(randomNumber);
-
-  const playerHtmlEl = document.querySelector(".card-container-player");
-  const cardHtml = (playerHtmlEl.innerHTML += `
-        <img src="/img/${cardDeck[randomNumber].suit}-${cardDeck[randomNumber].value}.png"></img>
-        `); //vi ska undvika innerHTML pga säkerhetsrisk?
-  // måste få att den slumpar 2 olika..
-  return cardHtml;
+function player() {
+  GetRandomCardPlayer();
+  GetRandomCardPlayer();
 }
-// randomCard();
+function computer() {
+  GetRandomCardDealer();
+  GetRandomCardDealer();
+}
+player();
+computer();
 
-const btnEl = document.querySelector(".play-btn");
-btnEl.addEventListener("click", GetRandomCard);
+// måste göra if statement för o se om K J Q at vrdet är 10
 
+function GetRandomCardPlayer() {
+  let randomNumber = Math.floor(Math.random() * 52); //byt namn till randomCard?
+  console.log(randomNumber);
+
+  const playerHtmlEl = (document.querySelector(
+    ".card-container-player"
+  ).innerHTML += `
+            <img src="/img/${cardDec1[randomNumber].suit}-${cardDec1[randomNumber].value}.png"></img>
+                `);
+  return playerHtmlEl;
+  //vi ska undvika innerHTML pga säkerhetsrisk?
+}
+
+function GetRandomCardDealer() {
+  let randomNumber = Math.floor(Math.random() * 52); //byt namn till randomCard?
+  const playerHtmlEl = (document.querySelector(
+    ".card-container-dealer"
+  ).innerHTML += `
+            <img src="/img/${cardDec1[randomNumber].suit}-${cardDec1[randomNumber].value}.png"></img>
+                `);
+  return playerHtmlEl;
+  //vi ska undvika innerHTML pga säkerhetsrisk?
+}
+
+function extracard() {
+  //kod här för extrakort för deealern och oss
+  let randomNumber = Math.floor(Math.random() * 52); //byt namn till randomCard?
+
+  const playerHtmlEl = (document.querySelector(
+    ".card-container-player"
+  ).innerHTML += `
+            <img src="/img/${cardDec1[randomNumber].suit}-${cardDec1[randomNumber].value}.png"></img>
+                `);
+  return playerHtmlEl;
+}
+
+const nextCardBtn = document
+  .querySelector(".play-btn")
+  .addEventListener("click", extracard);
 //vi måste se till att den inte drar samma kort flera gånger?
- */
