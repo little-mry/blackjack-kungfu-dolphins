@@ -264,7 +264,7 @@ const cardDec1 = [
   },
 ];
 
-function GetRandomCard() {
+/* function GetRandomCard() {
   let randomNumber = Math.floor(Math.random() * 52); //byt namn till randomCard?
   //   console.log(randomNumber);
 
@@ -281,3 +281,4 @@ const btnEl = document.querySelector(".play-btn");
 btnEl.addEventListener("click", GetRandomCard);
 
 //vi måste se till att den inte drar samma kort flera gånger?
+ */
