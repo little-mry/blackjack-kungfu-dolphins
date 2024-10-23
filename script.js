@@ -314,6 +314,7 @@ function computer() {
 function blackjack() {
     if (totalScorePlayer === 21) {
         console.log('Blackjack! Spelaren vinner!');
+        //avsluta spelet
     } else if (totalScorePlayer > 21) {
         console.log('Spelaren har förlorat!');
     }
