@@ -1,5 +1,4 @@
-
-const cardDeck = [
+/* const cardDeck = [
     {
         suit: 'clubs',
         value: 11,
@@ -285,5 +284,8 @@ function decideAceValue(card) {
 }
 
 
+    
+}
 
-<img src="${card.image}" alt="${card.suit} ${card.value}">`;
+
+ */
