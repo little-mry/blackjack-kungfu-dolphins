@@ -316,4 +316,4 @@ function extracard() {
 const nextCardBtn = document
   .querySelector(".play-btn")
   .addEventListener("click", extracard);
-//vi måste se till att den inte drar samma kort flera gånger?
+//vi måste se till att den inte drar samma kort flera gånger? */
