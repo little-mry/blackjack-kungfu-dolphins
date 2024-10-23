@@ -14,14 +14,22 @@
         <h2 class="heading--h2">Play Kung-fu Dolphins Black Jack!</h2>
       </header>
       <article class="score-board">
-        <section class="score" id="computer-score"></section>
-        <section class="score" id="player-score"></section>
+        <h3 class="score-board__heading">Score:</h3>
+        <section class="score-board__section">
+            <h4 class="score-board__heading--small">Computer's score:</h4>
+            <p class="score-board__score" id="computer-score"></p>
+        </section>
+        <section class="score-board__section"></section>
+            <h4 class="score-board__heading--small">Computer's score:</h4>
+            <p class="score-board__score" id="player-score"></p>
       </article>
       <article class="dealer-side">
         <section class="card-deck"></section>
         <section class="card-container-dealer"></section>
       </article>
-      <div class="arc-divider"></div>
+      <div class="arc-divider">
+        <p class="game-result"></p>
+      </div>
       <article class="player-side">
         <section class="card-container-player"></section>
       </article>

@@ -267,6 +267,23 @@ const cardDeck = [
 let totalScorePlayer = 0;
 let totalScoreDealer = 0;
 
+// startar spelet
+
+function backCard() {
+  const playerHtmlEl = document.querySelector(".card-container-dealer");
+  playerHtmlEl.innerHTML += `
+         <img src="./img/card-back.png" alt="">`;
+}
+
+const startBtn = document.querySelector(".start-btn");
+startBtn.addEventListener("click", start);
+
+function start() {
+  player();
+  computer();
+  backCard();
+}
+
 // Funktion för att uppdatera poäng för spelare och dealer
 function scoreUpdate(card, isPlayer) {
   if (card.value == 11) {
@@ -279,7 +296,12 @@ function scoreUpdate(card, isPlayer) {
     totalScoreDealer += card.value;
     console.log("Dealerns totala poäng: ", totalScoreDealer);
   }
+
+  //return totolScorePlayer, totalScoreDealer
+
 }
+
+
 
 // Funktion för att dra ett slumpmässigt kort för spelare eller dealer
 function getRandomCard(isPlayer) {
@@ -359,22 +381,7 @@ function decideAceValue(card) {
   return aceValue;
 }
 
-// startar spelet
 
-function backCard() {
-  const playerHtmlEl = document.querySelector(".card-container-dealer");
-  playerHtmlEl.innerHTML += `
-         <img src="./img/card-back.png" alt="">`;
-}
-
-const startBtn = document.querySelector(".start-btn");
-startBtn.addEventListener("click", start);
-
-function start() {
-  player();
-  computer();
-  backCard();
-}
 
 // måste göra en funktion sen om vi STANNAR ELLER FÅR 21, SÅ
 //så ska de kortet upp o ner få ett värde o flippas bort
