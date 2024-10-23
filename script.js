@@ -381,7 +381,27 @@ function decideAceValue(card) {
   return aceValue;
 }
 
+// startar spelet
 
+function backCard() {
+  const playerHtmlEl = document.querySelector(".card-container-dealer");
+  playerHtmlEl.innerHTML += `
+         <img src="./img/card-back.png" alt="">`;
+}
+
+const startBtn = document.querySelector(".start-btn");
+startBtn.addEventListener("click", start);
+
+let alive = false;
+function start() {
+  let alive = true;
+  if (alive) {
+    startBtn.classList.add("hidden");
+  }
+  player();
+  computer();
+  backCard();
+}
 
 // måste göra en funktion sen om vi STANNAR ELLER FÅR 21, SÅ
 //så ska de kortet upp o ner få ett värde o flippas bort
