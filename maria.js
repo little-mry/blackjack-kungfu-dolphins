@@ -267,7 +267,7 @@ const cardDeck = [
 ]
 
 function decideAceValue(card) {
-    if(card[value] === 11) {
+    if(card.value == 11) {
         const aceValue = prompt('Vill du att värdet på ditt ess ska vara [1] eller [11]?')
         switch (aceValue) {
             case '1':
@@ -284,12 +284,6 @@ function decideAceValue(card) {
     return aceValue
 }
 
-function displayScores(newValueDealer, newValuePlayer) {
-    const totalvalueDealer =+ newValueDealer
-    const totalvaluePlayer =+ newValuePlayer
 
 
-}
-
-
- */
+<img src="${card.image}" alt="${card.suit} ${card.value}">`;
