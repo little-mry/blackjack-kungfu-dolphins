@@ -1,22 +1,24 @@
+// ändrade value i K Q och J till "K" "J" "Q"   så de blir rätt
+
 const cardDec1 = [
   {
     suit: "clubs",
-    value: 11,
+    value: "A",
     image: "./img/clubs-A.png",
   },
   {
     suit: "clubs",
-    value: 10,
+    value: "K",
     image: "./img/clubs-K.png",
   },
   {
     suit: "clubs",
-    value: 10,
+    value: "Q",
     image: "./img/clubs-Q.png",
   },
   {
     suit: "clubs",
-    value: 10,
+    value: "J",
     image: "./img/clubs-J.png",
   },
   {
@@ -67,22 +69,22 @@ const cardDec1 = [
 
   {
     suit: "diamonds",
-    value: 11,
+    value: "A",
     image: "./img/diamonds-A.png",
   },
   {
     suit: "diamonds",
-    value: 10,
+    value: "K",
     image: "./img/diamonds-K.png",
   },
   {
     suit: "diamonds",
-    value: 10,
+    value: "Q",
     image: "./img/diamonds-Q.png",
   },
   {
     suit: "diamonds",
-    value: 10,
+    value: "J",
     image: "./img/diamonds-J.png",
   },
   {
@@ -133,22 +135,22 @@ const cardDec1 = [
 
   {
     suit: "spades",
-    value: 11,
+    value: "A",
     image: "./img/spades-A.png",
   },
   {
     suit: "spades",
-    value: 10,
+    value: "K",
     image: "./img/spades-K.png",
   },
   {
     suit: "spades",
-    value: 10,
+    value: "Q",
     image: "./img/spades-Q.png",
   },
   {
     suit: "spades",
-    value: 10,
+    value: "J",
     image: "./img/spades-J.png",
   },
   {
@@ -199,22 +201,22 @@ const cardDec1 = [
 
   {
     suit: "hearts",
-    value: 11,
+    value: "A",
     image: "./img/hearts-A.png",
   },
   {
     suit: "hearts",
-    value: 10,
+    value: "K",
     image: "./img/hearts-K.png",
   },
   {
     suit: "hearts",
-    value: 10,
+    value: "Q",
     image: "./img/hearts-Q.png",
   },
   {
     suit: "hearts",
-    value: 10,
+    value: "J",
     image: "./img/hearts-J.png",
   },
   {
