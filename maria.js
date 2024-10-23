@@ -279,10 +279,11 @@ const cardDeck = [
       
       document.getElementById("stay-btn").addEventListener("click", function () {
         console.log("Du valde att stanna. Låt oss se resultatet!");
+        dealersTurn()
         // Här kan du implementera dealerns tur om spelaren väljer att stanna
       });
 
-        const startBtn = document.querySelector(".start-btn");
+    const startBtn = document.querySelector(".start-btn");
   startBtn.addEventListener("click", start);
   
   let alive = false;
@@ -295,11 +296,15 @@ const cardDeck = [
     if (alive) {
       startBtn.classList.add("hidden");
     }
-    player();
-    computer();
-    backCard();
+    getRandomCard(true); 
+    getRandomCard(true); 
+    getRandomCard(false);
+
+    const playerHtmlEl = document.querySelector(".card-container-dealer");
+    playerHtmlEl.innerHTML += `<img src="./img/card-back.png" alt="" class="card-back">`;
   }
   
+
 
  
   function getRandomCard(isPlayer) {  // Funktion för att dra ett slumpmässigt kort för spelare eller dealer
@@ -314,21 +319,6 @@ const cardDeck = [
   
     scoreUpdate(card, isPlayer);
     blackjack();
-  }
-  
-  function backCard() {
-    const playerHtmlEl = document.querySelector(".card-container-dealer");
-    playerHtmlEl.innerHTML += `
-           <img src="./img/card-back.png" alt="">`;
-  }
-
-  function player() {  // startar spel för spelaren
-    getRandomCard(true); 
-    getRandomCard(true); 
-  }
-  
-  function computer() { // startar spel för dealern
-    getRandomCard(false); 
   }
   
   function blackjack() {  // Kollar blackjack-reglerna
@@ -349,7 +339,6 @@ const cardDeck = [
     }
   }
   
-
   function decideAceValue(card) {
     const aceValue = prompt(
       "Vill du att värdet på ditt ess ska vara [1] eller [11]?"
@@ -404,5 +393,8 @@ const cardDeck = [
         }
     }
 
-    // måste göra en funktion sen om vi STANNAR ELLER FÅR 21, SÅ
-    //så ska de kortet upp o ner få ett värde o flippas bort
+function dealersTurn() {
+    const cardBack = document.querySelector('.card-back')
+    cardBack.remove()
+    getRandomCard(false)
+}
