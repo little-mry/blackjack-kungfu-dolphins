@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Londrina+Sketch&family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script src="global.js" defer></script>
-   <!--  <script src="script.js" defer></script> -->
+    <script src="script.js" defer></script>
      <!-- <script src="maria.js" type= "defer></script> -->
-      <script src="lucas.js" type="module" defer></script>
-    
+<!--       <script src="lucas.js" type="module" defer></script>
+ -->    
 
     <title>KUNG-FU DOLPHINS</title>
   </head>
@@ -18,29 +21,43 @@
         <h1 class="heading">Black Jack</h1>
         <h2 class="heading--h2">Play Kung-fu Dolphins Black Jack!</h2>
       </header>
+      
       <article class="score-board">
         <h3 class="score-board__heading">Score:</h3>
         <section class="score-board__section">
             <h4 class="score-board__heading--small">Computer's score:</h4>
             <p class="score-board__score" id="computer-score"></p>
         </section>
-        <section class="score-board__section"></section>
+        <section class="score-board__section">
             <h4 class="score-board__heading--small">Your score:</h4>
             <p class="score-board__score" id="player-score"></p>
+          </section>
       </article>
-      <article class="dealer-side">
-        <section class="card-deck"></section>
-        <section class="card-container-dealer"></section>
+
+      <article class="card-deck">
+        <section class="card-deck-box">
+          <img src="img/card-back.png" alt="card deck" class="card-deck-img">
+        </section>
       </article>
-      <div class="arc-divider">
-        <p class="game-result"></p>
-      </div>
-      <article class="player-side">
-        <section class="card-container-player"></section>
+
+      <article class="play-board">
+        <section class="dealer-side">
+          <section class="card-container-dealer"></section>
+        </section>
+
+        <div class="arc-divider">
+          <p class="game-result"></p>
+        </div>
+
+        <section class="player-side">
+          <section class="card-container-player"></section>
+        </section>
       </article>
-      <button class="start-btn">START</button>
-      <button id="continue-btn">Continue</button>
-      <button id="stay-btn">Stay</button>
+      <article class="buttons-container">
+        <button class="start-btn">START</button>
+        <button id="continue-btn">Continue</button>
+        <button id="stay-btn">Stay</button>
+      </article>
     </div>
     <script src="/jakob.js"></script>
   </body>
