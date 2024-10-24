@@ -370,10 +370,10 @@ function backCard() {
 const startBtn = document.querySelector(".start-btn");
 startBtn.addEventListener("click", start);
 
-let alive = false;
+let isAlive = false;
 function start() {
-  let alive = true;
-  if (alive) {
+  isAlive = true;
+  if (isAlive) {
     startBtn.classList.add("hidden");
   }
   player();
