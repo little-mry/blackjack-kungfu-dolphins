@@ -38,15 +38,18 @@ header {
   border: 2px solid black;
   background-color: rgb(66, 172, 126);
   padding: 2rem;
+ }
+
+.heading {
   font-family: "Londrina Sketch", sans-serif;
-  font-size: 1.5rem;
   font-weight: 600;
   font-style: normal;
+  font-size: 3rem;
 }
 
 .heading--h2 {
-  font-size: 1.5rem;
   font-weight: 800;
+  font-size: 2rem;
 }
 
 .score-board{
