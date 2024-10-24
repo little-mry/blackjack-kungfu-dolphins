@@ -279,7 +279,12 @@ function scoreUpdate(card, isPlayer) {
     totalScoreDealer += card.value;
     console.log("Dealerns totala poäng: ", totalScoreDealer);
   }
+
+  //return totolScorePlayer, totalScoreDealer
+
 }
+
+
 
 // Funktion för att dra ett slumpmässigt kort för spelare eller dealer
 function getRandomCard(isPlayer) {
