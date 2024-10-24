@@ -34,7 +34,7 @@ function start() {  // Startar spelet
     getRandomCard(true);
     getRandomCard(false);
 
-    const playerHtmlEl = document.querySelector(".card-container-dealer");
+    const playerHtmlEl = document.querySelector(".card-container--dealer");
     playerHtmlEl.innerHTML += `<img src="./img/card-back.png" alt="" class="card-back">`;
 }
 
@@ -43,7 +43,7 @@ function getRandomCard(isPlayer) {  // Funktion för att dra ett slumpmässigt k
     const card = cardDeck[randomNumber];
 
     const playerHtmlEl = document.querySelector(
-        isPlayer ? ".card-container-player" : ".card-container-dealer"
+        isPlayer ? ".card-container--player" : ".card-container--dealer"
     );
 
     playerHtmlEl.innerHTML += `<img src="${card.image}" alt="${card.suit} ${card.value}">`;
@@ -148,3 +148,5 @@ function dealersTurn(totalScoreDealer) {
 
    // compareHands(totalScorePlayer, totalScoreDealer);
 }
+
+hejhej
