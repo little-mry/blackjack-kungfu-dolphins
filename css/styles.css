@@ -75,6 +75,8 @@ header {
   flex-direction: column;
 }
 
+
+
 .buttons-container {
   grid-area: buttons;
 }
@@ -120,10 +122,12 @@ header {
     padding: .5rem;
 }
 
-.card-container-player img {
-  width: 150px;
-  height: 200px;
+
+.card-container--player img {
+  width: 15rem;
+  height: 20rem;
 }
+
 
 .hidden {
   display: none;
