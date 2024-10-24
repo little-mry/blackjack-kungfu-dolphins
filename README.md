@@ -3,6 +3,7 @@ BLACK JACK by KUNG FU DOLPHINS
 HTML -sida med plats korten(bilder) och spelplan plus enkla instruktioner
 
 CSS-fil
+**Maria fixar**
 
 
 JS:
