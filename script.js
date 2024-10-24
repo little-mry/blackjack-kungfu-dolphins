@@ -149,4 +149,3 @@ function dealersTurn(totalScoreDealer) {
    // compareHands(totalScorePlayer, totalScoreDealer);
 }
 
-hejhej
