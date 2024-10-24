@@ -146,3 +146,7 @@ header {
 .hidden {
   display: none;
 }
+
+#reset-btn {
+  display: none;
+}
