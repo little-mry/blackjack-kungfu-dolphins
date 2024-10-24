@@ -405,7 +405,7 @@ const cardDeck = [
 
      if(dealerPoints <=16) {
         getRandomCard(false)
-        dealersTurn(dealerPoints)
+        
      } else {
          stopGame()
      }
