@@ -25,7 +25,8 @@
   let alive = false;
   
   function start() {  // Startar spelet
-      alive = true;
+     
+    alive = true;
       if (alive) {
           startBtn.classList.add("hidden");
       }
